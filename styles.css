@@ -1,0 +1,175 @@
+/* ************************ geral *************************** */
+
+body {
+    font-family: "lato", "arial", "sans-serif";
+    font-size: 15px;
+    color: #fff;
+    background-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.titulosSecções {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.fundosGeral {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.imgEfeito:hover {
+   transform: scale(1.1);
+   transition: transform 0.5s;
+}
+
+/* ************************ nav bar *************************** */
+
+.navbar {
+    text-transform: uppercase;
+    background-color: rgba(54, 54, 54, 0.98) !important;
+}
+
+.navbar .navbar-nav li a {
+    padding-right: 30px !important;
+    text-align: left; 
+}
+
+.navbar .navbar-nav li a:hover { 
+    color: #48ea99 !important;
+}
+
+/* ************************ header *************************** */
+
+.fundoHeader {
+    background-image: url(img/fundos/image5.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+/* ************************ about me *************************** */
+
+.fundoAbout {
+    background-image: url(img/fundos/image2.JPG);
+}
+
+.sobreTexto {
+    text-align: center;
+    padding-left: 35%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+/* ************************ drumming *************************** */
+
+.fundoDrumming {
+    background-image: url(img/fundos/image1.JPG);
+}
+
+.spcVideos {
+    margin-bottom: 10%
+}
+
+.titulosVideos {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.videoBorda {
+    border-style: solid;
+    border-width: 3px;
+}
+
+/* ************************ Studio *************************** */
+
+.fundoStudio {
+    background-image: url(img/fundos/image3.JPG);
+}
+
+.jumbotron {
+    background-color: rgba(46, 46, 46, 0.83);
+    text-align: center;
+}
+
+.spcGaleria {
+    padding-bottom: 3%;
+}
+
+/* ************************ Portfolio *************************** */
+
+.card-body {
+    background-color: #1d1d1d;
+    text-align: center;
+}
+
+.portSubTitulos {
+    text-transform: uppercase;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.portSpc {
+    padding-bottom: 2%; 
+}
+
+/* ************************ Sponsors *************************** */
+
+.fundoSponsor {
+    background-image: url(img/fundos/image6.jpg);
+}
+
+.marcas {
+    padding-top: 3%;
+    padding-bottom: 12%;
+}
+
+.subTituloSps {
+    text-align: center;
+}
+
+/* ************************ Contact *************************** */
+
+#seven {
+    background-color: #1d1d1d;
+}
+
+.redesSociais {
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 3%
+    
+}
+
+.redesSociais a {
+    color: azure;
+}
+
+.redesSociais a:hover { 
+    color: #48ea99 !important;
+}
+
+/* ************************ footer *************************** */
+
+footer {
+    background-color: #343333;
+    padding-top: .5%;
+}
+
+
+
+
+
+
+
